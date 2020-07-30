@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 .App-logo {
@@ -35,4 +39,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.koirala {
+  width: 33%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
 }

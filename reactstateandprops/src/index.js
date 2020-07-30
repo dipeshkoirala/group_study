@@ -2,14 +2,17 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
+import Todo from "./Todo";
+import { BrowserRouter as Router } from "react-router-dom";
 /* import * as serviceWorker from './serviceWorker'; */
 
 // 1. installed bootstrap using npm install and imported
 import "bootstrap/dist/css/bootstrap.css";
 ReactDOM.render(
-  <React.StrictMode>
+  <Router>
     <App />
-  </React.StrictMode>,
+    {/* <Todo /> */}
+  </Router>,
   document.getElementById("root")
 );
 
